@@ -1,0 +1,21 @@
+{
+  "name": "HandsAutocomplete",
+  "authors": [
+    "Fabrice Yacono <fabrice.yacono@acelys.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "ngHandsontable": "0.11.1",
+    "bootstrap": "3.3.5"
+  }
+}

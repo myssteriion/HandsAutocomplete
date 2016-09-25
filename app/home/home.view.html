@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<!DOCTYPE html>
+
+<div class="container">
+
+    <div class="row">
+        <h4>Hot : ngHandsontable version : 0.11.1 ; handsontable version : 0.24.3</h4>
+    </div>
+
+    <div class="row" ng-controller="homeController as homeCtrl">
+        <div style="padding: 10px 0px" class="col-sm-12 " ng-if="metadatasCtrl.tableIsReady">
+            <hot-table hot-id="my-table" settings="homeCtrl.settings" datarows="homeCtrl.data"></hot-table>
+        </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-default">button who do nothing</button>
+        </div>
+    </div>
+
+
+</div>
